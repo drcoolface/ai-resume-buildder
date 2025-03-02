@@ -56,7 +56,7 @@
   --sidebar-foreground: var(--color-ui-900);
   --sidebar-primary: var(--color-ui-600);
   --sidebar-primary-foreground: var(--color-ui-50);
-  --sidebar-accent: var(--color-ui-100);
+  --sidebar-accent: var(--color-ui-300);
   --sidebar-accent-foreground: var(--color-ui-800);
   --sidebar-border: var(--color-ui-200);
   --sidebar-ring: var(--color-ui-400);
@@ -99,7 +99,7 @@
   --sidebar-foreground: var(--color-ui-200);
   --sidebar-primary: var(--color-ui-500);
   --sidebar-primary-foreground: var(--color-ui-50);
-  --sidebar-accent: var(--color-ui-700);
+  --sidebar-accent: var(--color-ui-300);
   --sidebar-accent-foreground: var(--color-ui-100);
   --sidebar-border: var(--color-ui-600);
   --sidebar-ring: var(--color-ui-400);

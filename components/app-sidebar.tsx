@@ -14,7 +14,6 @@ import {
 } from "@/components/ui/sidebar";
 import { LogoutButton } from "./Logout";
 
-// This is sample data.
 const data = {
   versions: ["GPT 3", "GPT 4-mini", "GPT 4o", "Grok 3", "Deepseek"],
   navMain: [

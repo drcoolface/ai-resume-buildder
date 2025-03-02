@@ -39,7 +39,7 @@ LogoutButtonProps) {
                 </SidebarMenuButton>
               </TooltipTrigger>
               <TooltipContent>
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center ">
                   <p>Are you sure you want to logout?</p>
                   <div className="mt-2 flex space-x-2">
                     <button
