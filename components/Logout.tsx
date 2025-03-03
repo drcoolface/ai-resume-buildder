@@ -14,14 +14,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-interface LogoutButtonProps {
-  //   username?: string;
-  //   email?: string;
-  //   onLogout?: () => void;
-}
-
-export function LogoutButton({}: //   username = "John Doe",
-LogoutButtonProps) {
+export function LogoutButton() {
   return (
     <SidebarFooter>
       <SidebarMenu>

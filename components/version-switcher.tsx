@@ -1,12 +1,7 @@
 "use client";
 
 import * as React from "react";
-import {
-  Check,
-  ChevronDown,
-  ChevronsUpDown,
-  GalleryVerticalEnd,
-} from "lucide-react";
+import { Check, ChevronDown, GalleryVerticalEnd } from "lucide-react";
 
 import {
   DropdownMenu,
@@ -15,7 +10,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import {
-  SidebarFooter,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,

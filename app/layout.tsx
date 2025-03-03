@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={` ${yss.className} antialiased`}>{children}</body>
+      <body className={` ${yss.className} antialiased `}>{children}</body>
     </html>
   );
 }
