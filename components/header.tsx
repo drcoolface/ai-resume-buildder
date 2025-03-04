@@ -6,7 +6,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { Separator } from "@/components/ui/separator";
+
 import { SidebarTrigger } from "./ui/sidebar";
 import { VersionSwitcher } from "./version-switcher";
 
@@ -16,10 +16,7 @@ const Header = () => {
     <header className="flex h-16 w-full shrink-0 items-center justify-between border-b px-4 max-w-6xl mx-auto">
       <div className="flex items-center space-x-2">
         <SidebarTrigger className="-ml-2" />
-        <Separator
-          orientation="vertical"
-          className="h-4 w-2 text-blue-500 border-red-400"
-        />
+
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem className="hidden md:inline-flex">
