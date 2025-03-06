@@ -4,11 +4,10 @@ import {
   createUser,
   createUserProfile,
   createWorkExperience,
-  createSkill,
-  createProject,
+  createProjects,
   createResume,
   createSkills,
-} from "./lib/data";
+} from "./lib/data/data";
 
 const seedDatabase = async () => {
   try {
@@ -237,7 +236,7 @@ const seedDatabase = async () => {
 
       // Create projects
       for (const project of userData.projects) {
-        await createProject({
+        await createProjects({
           userId: newUser.id,
           ...project,
         });
